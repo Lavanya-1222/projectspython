@@ -426,10 +426,9 @@ class Bill_Software:
                         val = (self.batch1.get(),self.c_name.get(),self.phone1.get(),self.date1.get(),self.totalprize1.get(),self.totaltax1.get(),self.total1.get())
                         myc.execute(q1,val)
                         print(myc.rowcount, "row inserted")
-                        q2="insert into Products(Batch_no,Product,QTY,Price)values(%s,%s,%s,%s)
-                        val=(self.batch.get())
+
                         con.commit()
-                        Hello lavanya
+                        # Hello lavanya
 
 
                 except Exception as e:
